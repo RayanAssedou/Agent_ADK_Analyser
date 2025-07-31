@@ -1,0 +1,23 @@
+Time,Symbol,Type,Volume,Price,OpenPrice,ClosePrice,SL,TP,Profit,Balance,Equity,Comment
+# Backtest Configuration
+# Expert Advisor: Claude_MTX_X1
+# Symbol: EURUSD
+# Timeframe: H1
+# Period: 2024-01-01 to 2025-05-31
+# Initial Deposit: $100000
+# Leverage: 1:100
+# Total Trades: 3
+# Win Rate: 66.67%
+# Net Profit: $11.06
+# Final Balance: $100011.06
+# Max Drawdown: 0.01%
+# Sharpe Ratio: 0.05
+#
+2024-01-01 00:00:00,EURUSD,deposit,0.00,0.0000,0.0000,0.0000,0.0000,0.0000,0.00,100000.00,100000.00,Initial deposit
+2025-04-07 17:21:02,EURUSD,sell,0.07,1.04667,1.04667,0.0000,1.04817,1.04417,0.00,100010.63,100010.63,Trade opened
+2025-04-07 17:59:56,EURUSD,close,0.07,1.04912,1.04667,1.04912,0.0000,0.0000,10.63,100010.63,100010.63,manual close
+2024-04-27 00:50:23,EURUSD,sell,0.11,1.05456,1.05456,0.0000,1.05606,1.05206,0.00,100008.30,100008.30,Trade opened
+2024-04-27 01:00:21,EURUSD,close,0.11,1.05237,1.05456,1.05237,0.0000,0.0000,-2.33,100008.30,100008.30,manual close
+2025-02-28 20:23:30,EURUSD,sell,0.08,1.05434,1.05434,0.0000,1.05584,1.05184,0.00,100006.55,100006.55,Trade opened
+2025-02-28 21:10:20,EURUSD,close,0.08,1.05271,1.05434,1.05271,0.0000,0.0000,-1.76,100006.55,100006.55,manual close
+2025-05-31 23:59:59,EURUSD,summary,0.00,0.0000,0.0000,0.0000,0.0000,0.0000,11.06,100006.55,100006.55,Backtest completed

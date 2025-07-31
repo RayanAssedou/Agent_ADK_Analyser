@@ -1,0 +1,1 @@
+# Trading Strategy AI Analyzer - Core Application Package 
